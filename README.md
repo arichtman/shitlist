@@ -2,11 +2,6 @@
 
 Things that have made my shitlist and why.
 
-## Ruby
-
-I don't hate Ruby itself honestly and Ruby on Rails is a winner.
-It's mostly that Cucumber and friends use it. This creates more sprawl and mess by virtue of being yet _another_ area we need to have skill in.
-
 ## Dotnet
 
 - Microsoft.
