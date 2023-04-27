@@ -79,3 +79,10 @@ I quite like GitLab but it's got gotchas, Jack.
 - Fat: I have no idea how they did it but every install with Homebrew just seems huge. I think they've done full dependency separation but without deduplication, so you wind up with like 50 versions of the same `libc`.
 - Tragic: Mac deserved better than this.
 - Slow and chatty: until v4 it was interacting with `git` directly to deal with package metadata. Now I believe it just downloads a JSON blob with all the listings.
+
+## HCL
+
+- Semantic newlines but not spaces (mostly)
+- Should have just been a functional language but won't admit it
+- Not favorable compared to other options (Cue, Dhall, Sprig, Nix, Jinja2... the list goes on)
+
