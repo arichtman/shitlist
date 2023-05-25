@@ -2,6 +2,21 @@
 
 Things that have made my shitlist and why.
 
+## Helm
+
+- Templating data structures
+- Templating semantic whitespace
+- Sprig? Why do we need _another_ templating language?
+- Inheritance
+- Lousy to no composition patterns
+- Impossible to debug once you start flow-controlling bits on and off
+- PITA to test
+- Abuses k8s configMaps/secrets to store state
+- Hits the configMap size limit if you parameterize secrets like certificates
+- Unique chart registry format - was OCI or the other 500, proven repository formats not enough?
+- Used to need Tiller deployed to cluster
+- Misleading - makes you think you can write generalized charts but they're a mistake
+
 ## Dotnet
 
 - Microsoft.
