@@ -101,3 +101,34 @@ I quite like GitLab but it's got gotchas, Jack.
 - Should have just been a functional language but won't admit it
 - Not favorable compared to other options (Cue, Dhall, Sprig, Nix, Jinja2... the list goes on)
 
+## CICD
+
+Play bingo with this list
+
+- Hard-coded names
+- Bound to user accounts
+- Network share dependency
+- Using git pull to "deploy"
+- Shared runners
+- Running jobs on master node of the ci/cd application
+- Stale dependencies
+- High severity vulns
+- Absolute file paths
+- Production application dependency on scheduled pipelines
+- Unpinned everything
+- No backup/DR
+- Runs regular test suite as performance tests
+- Checked in binaries/pdfs/stack traces
+- Checked in credentials/ssh/api key(s)
+- API key in URL
+- Reruns tests until they pass
+- Esoteric build output paths
+- Home-grown tools that duplicate available features
+- Builds on every commit
+- Magic relative paths ../../../..
+- Hours-long jobs
+- Jenkins/Bamboo
+- No way to check locally
+- Jobs depend on runner state
+- Ancient CI/CD app version
+- Fails without logs
